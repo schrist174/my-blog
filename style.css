@@ -11,14 +11,22 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    background-image: url('https://yourflowerimageurl.com'); /* Link to flower image (replace with your URL) */
+    background-repeat: repeat; /* Repeat the flower image on the page */
 }
 
 /* Header Styling */
 header {
     background: #333;
-    color: goldenrod;
+    color: white;
     padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive; /* Cursive font */
+    font-size: 3rem; /* Adjust the size if needed */
+    color: #f8b400; /* Change to a color of your choice */
 }
 
 header nav ul {
@@ -44,6 +52,13 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Adding flower image to border */
+main {
+    border: 10px solid transparent;
+    border-image: url('https://yourflowerborderimage.com') 30 round; /* Link to flower border image (replace with your URL) */
+}
+
+/* Article and Footer Styling */
 article {
     margin-bottom: 20px;
 }
